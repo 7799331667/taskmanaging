@@ -1,0 +1,133 @@
+body {
+  font-family: "Roboto Slab", serif;
+  background-image: url("pol.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.container-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #6a0572; /* Updated header background color */
+  color: white;
+}
+
+header h1 {
+  font-family: 'Harlow Solid Italic', sans-serif;
+}
+
+.btn-primary {
+  background-color: #ff5722; /* Updated primary button color */
+  border-color: #ff5722;
+}
+
+.btn-primary:hover {
+  background-color: #e64a19; /* Updated primary button hover color */
+  border-color: #e64a19;
+}
+
+.btn-danger {
+  background-color: #f44336; /* Updated danger button color */
+  border-color: #f44336;
+}
+
+.btn-danger:hover {
+  background-color: #d32f2f; /* Updated danger button hover color */
+  border-color: #d32f2f;
+}
+
+.card {
+  flex: 1;
+  border: 1px solid black;
+  background-image: url("download (1).jpg");
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
+  border-radius: 12px;
+  padding: 50px;
+  margin-top: 40px;
+  margin-right: 20px;
+  max-width: 900px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #6a0572; /* Updated header background color */
+  color: white;
+}
+
+header h1 {
+  font-family: 'Harlow Solid Italic', sans-serif;
+}
+
+.btn-primary {
+  background-color: #ff5722; /* Updated primary button color */
+  border-color: #ff5722;
+}
+
+.btn-primary:hover {
+  background-color: #e64a19; /* Updated primary button hover color */
+  border-color: #e64a19;
+}
+
+.btn-danger {
+  background-color: #f44336; /* Updated danger button color */
+  border-color: #f44336;
+}
+
+.btn-danger:hover {
+  background-color: #d32f2f; /* Updated danger button hover color */
+  border-color: #d32f2f;
+}
+
+.card {
+  flex: 1;
+  border: 1px solid black;
+  background-image: url("download (1).jpg");
+  background-size: cover;
+  background-position: center;
+  overflow-y: scroll;
+  border-radius: 12px;
+  padding: 50px;
+  margin-top: 40px;
+  margin-right: 20px;
+  max-width: 900px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Add or update the following styles in your style.css file */
+
+/* Primary button color */
+.btn-primary {
+  background-color: #3498db; /* Choose your preferred color */
+  border-color: #3498db;
+  color: #fff; /* Text color */
+}
+
+/* Primary button hover color */
+.btn-primary:hover {
+  background-color: #2980b9; /* Choose your preferred hover color */
+  border-color: #2980b9;
+  color: #fff; /* Text color on hover */
+}
+
+/* Danger button color */
+.btn-danger {
+  background-color: #e74c3c; /* Choose your preferred color */
+  border-color: #e74c3c;
+  color: #fff; /* Text color */
+}
+
+/* Danger button hover color */
+.btn-danger:hover {
+  background-color: #2bc0bb; /* Choose your preferred hover color */
+  border-color: #c0392b;
+  color: #fff; /* Text color on hover */
+}
